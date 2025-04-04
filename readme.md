@@ -43,18 +43,22 @@ Application web de gestion des clés et des salles développée avec Streamlit e
 ## Installation et démarrage
 
 1. Cloner le repository
+
 """bash
 git clone https://github.com/Mr-KAM/gestionnaire-de-cl-.git
 cd gestionnaire-de-cl-
 """
 
 2. Installer les dépendances
+
 """bash
 pew new gestionnaire_de_cle
 pew workon gestionnaire_de_cle
 pip install -r requirements.txt
 """
+
 3. Lancer l'application
+
 """bash
 streamlit run app.py
 """
